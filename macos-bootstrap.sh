@@ -25,7 +25,7 @@ nvm alias default node
 brew install httpie
 
 # Install Sublime Text (download, mount DMG, copy app, unmount and remove DMG)
-http --download --output sublimetext.dmg https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg 
+curl -o sublimetext.dmg "https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg"
 hdiutil attach sublimetext.dmg
 cp -r /Volumes/Sublime\ Text/Sublime\ Text.app/ /Applications/
 hdiutil detach /Volumes/Sublime\ Text/
