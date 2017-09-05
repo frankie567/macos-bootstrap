@@ -30,3 +30,6 @@ brew install httpie
 
 # Install Sublime Text
 brew cask install sublime-text
+
+# Install Google Chrome
+brew cask install google-chrome

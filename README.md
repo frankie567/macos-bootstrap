@@ -8,6 +8,7 @@ Script to setup a nice developer environment on macOS:
 * Install `nvm` NodeJS version manager ans setup latest NodeJS by default
 * Install `httpie` CLI utility
 * Install Sublime Text editor
+* Install Google Chrome
 * Put a nice default `.bash_profile` with Finder and Sublime Text CLI shortcuts
 
 ## Usage
