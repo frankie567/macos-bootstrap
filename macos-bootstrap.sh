@@ -3,8 +3,9 @@
 # Install Brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Download .bash_profile (enables Brew path)
+# Download and load .bash_profile (enables Brew path)
 curl -o ~/.bash_profile https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.bash_profile
+source ~/.bash_profile
 
 # Install recent Git
 brew install git
