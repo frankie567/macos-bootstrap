@@ -3,6 +3,9 @@
 # Install Brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# Install Cask
+brew tap caskroom/cask
+
 # Download and load .bash_profile (enables Brew path)
 curl -o ~/.bash_profile https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.bash_profile
 source ~/.bash_profile
@@ -25,9 +28,5 @@ nvm alias default node
 # Install HTTPie
 brew install httpie
 
-# Install Sublime Text (download, mount DMG, copy app, unmount and remove DMG)
-curl -o sublimetext.dmg "https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg"
-hdiutil attach sublimetext.dmg
-cp -r /Volumes/Sublime\ Text/Sublime\ Text.app/ /Applications/
-hdiutil detach /Volumes/Sublime\ Text/
-rm sublimetext.dmg
+# Install Sublime Text
+brew cask install sublime-text
