@@ -14,6 +14,11 @@ brew install pyenv
 pyenv install 3.6.2
 pyenv global 3.6.2
 
+# Install nvm, install and set default to latest Node
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+nvm install node
+nvm alias default node
+
 # Install HTTPie
 brew install httpie
 
