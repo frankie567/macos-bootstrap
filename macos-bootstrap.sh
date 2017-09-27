@@ -31,3 +31,6 @@ brew cask install sublime-text
 
 # Install Google Chrome
 brew cask install google-chrome
+
+# Generate SSH key
+ssh-keygen -t rsa -b 4096

@@ -10,6 +10,7 @@ Script to setup a nice developer environment on macOS:
 * Install Sublime Text editor
 * Install Google Chrome
 * Put a nice default `.bash_profile` with Finder and Sublime Text CLI shortcuts
+* Generate a SSH key
 
 ## Usage
 
