@@ -12,6 +12,7 @@ Script to setup a nice developer environment on macOS:
 * Put a nice default `.bash_profile` with:
   * Finder and VS Code CLI shortcuts
   * Custom Git PS1
+* Put a nice `.inputrc` allowing you to do history backward search
 * Generate a SSH key
 
 ## Usage

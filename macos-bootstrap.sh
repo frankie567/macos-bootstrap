@@ -19,6 +19,9 @@ brew tap caskroom/cask
 curl -o ~/.bash_profile https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.bash_profile
 source ~/.bash_profile
 
+# Download .inputrc
+curl -o ~/.inputrc https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.inputrc
+
 # Install tools through Brew
 brew install git pyenv nvm httpie jq
 
