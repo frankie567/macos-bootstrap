@@ -23,7 +23,7 @@ source ~/.bash_profile
 curl -o ~/.inputrc https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.inputrc
 
 # Install tools through Brew
-brew install git pyenv nvm httpie jq
+brew install bash bash-completion git pyenv nvm httpie jq
 
 # Install and set default Python to 3.7.1
 pyenv install 3.7.1
