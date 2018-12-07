@@ -15,21 +15,22 @@ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_heade
 # Install Cask
 brew tap caskroom/cask
 
-# Download and load .bash_profile (enables Brew path)
+# Install tools through Brew
+brew install bash bash-completion git pyenv nvm httpie jq
+
+# Download and load .bash_profile
 curl -o ~/.bash_profile https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.bash_profile
 source ~/.bash_profile
 
 # Download .inputrc
 curl -o ~/.inputrc https://raw.githubusercontent.com/frankie567/macos-bootstrap/master/.inputrc
 
-# Install tools through Brew
-brew install bash bash-completion git pyenv nvm httpie jq
-
 # Install and set default Python to 3.7.1
 pyenv install 3.7.1
 pyenv global 3.7.1
 
 # Install and set default to latest Node
+mkdir ~/.nvm
 nvm install node
 nvm alias default node
 
