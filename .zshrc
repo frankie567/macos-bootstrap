@@ -1,4 +1,4 @@
 eval "$(starship init zsh)"
 
-bindkey "^[[A" history-search-backward
-bindkey "^[[B" history-search-forward
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
